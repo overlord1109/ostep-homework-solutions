@@ -1,2 +1,3 @@
 CPU Intro homework done!
 6th question was enlightening. I expected for system to do alright, but CPU was idle for long times. This happened because IO_RUN_LATER flag made IO calls to be postponed and prioritized other program's CPU instruction. During the remained of IO calls of the first program, the CPU was idle for the whole time.
+Missed the last question: I had predicted -I IO_RUN_IMMEDIATE -S SWITCH_ON_IO should work [IO operations generally are back to back, better to take incoming IO call and switch to other process for CPU utilization]. Turns out none of the options gave satisfactory answers!! Don't know if there are solutions to these :(
