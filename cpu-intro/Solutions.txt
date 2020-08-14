@@ -1,0 +1,2 @@
+CPU Intro homework done!
+6th question was enlightening. I expected for system to do alright, but CPU was idle for long times. This happened because IO_RUN_LATER flag made IO calls to be postponed and prioritized other program's CPU instruction. During the remained of IO calls of the first program, the CPU was idle for the whole time.
